@@ -1,0 +1,27 @@
+{ "name": "webinos-driver-webServices"
+, "publishConfig": { "tag": "alpha" }
+, "description": "Drivers for external web services"
+, "keywords": [ "webinos", "web", "driver", "RESTfull"]
+, "version": "0.0.1"
+, "homepage": "http://webinos.org/"
+, "author": "Daniela Ventura <daniela.ventura@dieei.unict.it>"
+, "repository":
+  { "type": "git"
+  , "url": "https://github.com/webinos/webinos-driver-webServices.git"
+  }
+, "bugs":
+  { "email": "webinos-wp4-ml@fokus.fraunhofer.de"
+  , "url": ""
+  }
+, "directories": { "lib": "./lib"
+                 }
+, "main": "./lib/driverHandle.js"
+, "dependencies":
+  {
+    "twit" : "x",
+    "fb" : "x"
+  }
+, "bundleDependencies":
+  [
+  ]
+}

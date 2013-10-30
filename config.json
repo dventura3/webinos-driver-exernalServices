@@ -1,0 +1,27 @@
+{
+	"params" : {
+		"drivers" : {
+			"twitter" : {
+				"name" : "Twitter Service",
+				"description" : "Connection to Twitter Service to post a tweet",
+				"filename" : "twitterDriver.js",
+				"appInfo" : {
+					"consumerKey" : "...",
+					"consumerSecret": "...",
+					"accessToken" : "...",
+					"accessTokenSecret" : "..."
+				}
+			},
+			"facebook" : {
+				"name" : "Facebook Service",
+				"description" : "Connection to Facebook Service to post a message on the wall",
+				"filename" : "facebookDriver.js",
+				"appInfo" : {
+					"appID" : "...",
+					"appSecret": "...",
+					"userID" : "..."
+				}
+			}
+		}
+	}
+}
