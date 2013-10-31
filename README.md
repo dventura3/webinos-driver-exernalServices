@@ -7,14 +7,14 @@ In this moment, there are two examples of exernal services:
 - Twitter, to post a tweet by personal account.
 - Facebook, to post a message on the wall by personal account.
 
-To add other exernal web services, 
+To add other external web services, it's necessary to implement the driver and put it inside this directory: /lib/drivers/exernalServices/fileXXX.js.
+Then, it's necessary to modify the config.json file writing "name" (of api service), "descirption" (of service), "filename" (es. fileXXX.js), other useful information.
 
 ####How To Use Twitter driver
 
 To use Twitter and Post something on your account, there are two operations to do.
 
-- Step 1:
-
+- Step 1: 
 Create a personal Application on https://dev.twitter.com site with personal account.
 It's necessary to generate personal access token!
 
@@ -47,7 +47,6 @@ To use Facebook and Post something on personal wall, there are two operations to
 In this module, it isn't implemented the login, which should be in client-application.
 
 - Step 1:
-
 Create a personal Application on https://developers.facebook.com site with personal account.
 NB: The callback is necessary when you use an application. The callback should be the address of application.
 
